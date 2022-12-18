@@ -62,7 +62,25 @@
                 <div class="mb-3 row">
                     <label for="bidang" class="col-sm-3 col-form-label">Bidang</label>
                     <div class="col-sm-6">
-                        <select class="browser-default custom-select border border-secondary border-opacity-25 rounded"
+                        <div class="form-check"><input id="formCheck-1" class="form-check-input" type="checkbox" /><label
+                                class="form-check-label" for="formCheck-1">Bidang Perencanaan Pembangunan Daerah</label>
+                        </div>
+                        <div class="form-check"><input id="formCheck-1" class="form-check-input" type="checkbox" /><label
+                                class="form-check-label" for="formCheck-1">Bidang Perencanaan Pengendalian dan
+                                Evaluasi</label></div>
+                        <div class="form-check"><input id="formCheck-1" class="form-check-input" type="checkbox" /><label
+                                class="form-check-label" for="formCheck-1">Bidang Ekonomi dan Sumber Daya Alam</label></div>
+                        <div class="form-check"><input id="formCheck-1" class="form-check-input" type="checkbox" /><label
+                                class="form-check-label" for="formCheck-1">Bidang Pemerintahan dan Pembangunan
+                                Manusia</label></div>
+                        <div class="form-check"><input id="formCheck-1" class="form-check-input" type="checkbox" /><label
+                                class="form-check-label" for="formCheck-1">Bidang Infrastruktur dan Kewilayahan</label>
+                        </div>
+                        <div class="form-check"><input id="formCheck-1" class="form-check-input" type="checkbox" /><label
+                                class="form-check-label" for="formCheck-1">Sekretariat</label></div>
+                        <div class="form-check"><input id="formCheck-1" class="form-check-input" type="checkbox" /><label
+                                class="form-check-label" for="formCheck-1">Media Sosial</label></div>
+                        {{-- <select class="browser-default custom-select border border-secondary border-opacity-25 rounded"
                             id="statusLaporan">
                             <option selected>Pilih bidang...</option>
                             <option value="1">Bidang Perencanaan Pembangunan Daerah</option>
@@ -72,9 +90,10 @@
                             <option value="5">Bidang Infrastruktur dan Kewilayahan</option>
                             <option value="6">Sekretariat</option>
                             <option value="7">Media Sosial</option>
-                        </select>
+                        </select> --}}
                     </div>
                 </div>
+
                 <div class="mb-3 row">
                     <label for="statusLaporan" class="col-sm-3 col-form-label">Status Laporan</label>
                     <div class="col-sm-6">
